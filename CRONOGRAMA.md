@@ -12,12 +12,12 @@
 
 ### 🧬 Módulo 1 — Genética e Populacional
 
-| Semana | Tarefa                                                 | Link                                                                 |
-|--------|--------------------------------------------------------|----------------------------------------------------------------------|
-| 1      | Assistir até a aula 3 do curso da Duke                 | [Duke – Coursera](https://www.coursera.org/learn/genetics-evolution?utm_source=chatgpt.com) |
-| 2      | Concluir as aulas sobre SNPs e seleção natural         | mesmo link                                                          |
-| 3      | Ler 1 capítulo do curso do MIT (edX)                   | [MIT – edX](https://www.edx.org/course/introduction-to-biology-the-secret-of-life?utm_source=chatgpt.com) |
-| 4      | Fazer mapa mental + quiz sobre conceitos-chave         | Livre                                                               |
+| Semana | Tarefa                                                                 | Link                                                                 |
+|--------|------------------------------------------------------------------------|----------------------------------------------------------------------|
+| 1      | Assistir as semanas 1 e 2 do curso da Duke (introdução e herança genética) | [Duke – Coursera](https://www.coursera.org/learn/genetics-evolution?utm_source=chatgpt.com) |
+| 2      | Assistir as semanas 3 e 4 do curso da Duke (SNPs e Hardy-Weinberg)     | mesmo link                                                          |
+| 3      | Assistir as semanas 5 e 6 do curso da Duke (seleção natural e deriva genética) + Ler capítulo de apoio do curso MIT | [MIT – edX](https://www.edx.org/course/introduction-to-biology-the-secret-of-life?utm_source=chatgpt.com) |
+| 4      | Fazer mapa mental com Miro/Obsidian e criar quiz no Quizlet ou Notion com os principais conceitos: SNPs, HW, seleção natural | Livre                                                               |
 
 ---
 
@@ -36,10 +36,10 @@
 
 | Semana | Tarefa                                                  | Link                                                                 |
 |--------|---------------------------------------------------------|----------------------------------------------------------------------|
-| 9      | Concluir semana 1 do curso Stanford ML                  | [Stanford ML – Coursera](https://www.coursera.org/learn/fundamental-machine-learning-healthcare?utm_source=chatgpt.com) |
-| 10     | Treinar um Random Forest com SNPs simulados             | —                                                                    |
-| 11     | Comparar com XGBoost, gerar métricas ROC-AUC            | —                                                                    |
-| 12     | Entregar notebook explicando decisão do modelo          | —                                                                    |
+| 9      | Concluir semana 1 do curso Stanford ML (introdução e regressão linear) | [Stanford ML – Coursera](https://www.coursera.org/learn/fundamental-machine-learning-healthcare?utm_source=chatgpt.com) |
+| 10     | Concluir semanas 2 e 3 do curso Stanford ML (regressão logística, árvores e Random Forest) | mesmo link |
+| 11     | Concluir semana 4 do curso (XGBoost, overfitting, tuning) e gerar métricas ROC-AUC com dados simulados | mesmo link |
+| 12     | Finalizar curso + criar notebook com explicações baseadas nos modelos usados | mesmo link |
 
 ---
 
@@ -55,4 +55,3 @@
 ---
 
 > Este cronograma pode ser importado para **Notion**, **Obsidian** ou outro app markdown-friendly no celular para acompanhamento semanal com checklist.
-
