@@ -1,4 +1,12 @@
-# 📘 Cronograma de Estudos
+# 📘 Cronograma de Estudos em Markdown
+
+## ✅ Atualizações Realizadas
+
+1. **Novos cursos bem avaliados** nos Módulos 1, 3 e 4 (Duke, MIT, Stanford e Google Cloud).
+2. **Links atualizados** no README para fácil acesso no celular.
+3. **Descrição precisa** das atividades e entregas semanais.
+
+---
 
 ## 📅 Cronograma Semanal por Módulo
 
