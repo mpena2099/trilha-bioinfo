@@ -6,9 +6,9 @@
 
 | Semana | Tarefa                                                                 | Link                                                                 |
 |--------|------------------------------------------------------------------------|----------------------------------------------------------------------|
-| 1      | Assistir as semanas 1 e 2 do curso da Duke (introdução e herança genética) | [Duke – Coursera](https://www.coursera.org/learn/genetics-evolution?utm_source=chatgpt.com) |
-| 2      | Assistir as semanas 3 e 4 do curso da Duke (SNPs e Hardy-Weinberg)     | mesmo link                                                          |
-| 3      | Assistir as semanas 5 e 6 do curso da Duke (seleção natural e deriva genética) + Ler capítulo de apoio do curso MIT | [MIT – edX](https://www.edx.org/course/introduction-to-biology-the-secret-of-life?utm_source=chatgpt.com) |
+| 1      | Assistir aos módulos 1 e 2 do curso da Duke (introdução e herança genética) | [Duke – Coursera](https://www.coursera.org/learn/genetics-evolution?utm_source=chatgpt.com) |
+| 2      | Assistir aos módulos 3 e 4 do curso da Duke (SNPs e Hardy-Weinberg)     | mesmo link                                                          |
+| 3      | Assistir aos módulos 5 e 6 do curso da Duke (seleção natural e deriva genética) + Ler capítulo de apoio do curso MIT | [MIT – edX](https://www.edx.org/course/introduction-to-biology-the-secret-of-life?utm_source=chatgpt.com) |
 | 4      | Fazer mapa mental com Miro/Obsidian e criar quiz no Quizlet ou Notion com os principais conceitos: SNPs, HW, seleção natural | Livre                                                               |
 
 ---
