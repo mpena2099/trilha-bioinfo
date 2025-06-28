@@ -15,10 +15,10 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 - Compreender a base genética, SNPs e herança genética.
 - Estudar genética de populações.
 
-**Cursos:**
+**Cursos recomendados:**
 
-- [Genética Populacional – Online Cursos Gratuitos](https://onlinecursosgratuitos.com.br/curso/ciencias-humanas-e-sociais/genetica-populacional?utm_source=chatgpt.com)
-- [Genética Humana – Pleno Cursos](https://www.plenocursos.com.br/curso/curso-gratuito-de-basico-em-genetica-humana?utm_source=chatgpt.com)
+- [Introduction to Genetics and Evolution – Duke University (Coursera)](https://www.coursera.org/learn/genetics-evolution?utm_source=chatgpt.com)
+- [Genetics: Analysis and Applications – MIT via edX](https://www.edx.org/course/introduction-to-biology-the-secret-of-life?utm_source=chatgpt.com)
 
 **Entrega esperada:** Mapa mental + quiz de fixação
 
@@ -59,10 +59,10 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 - Construir modelos preditivos usando dados genéticos.
 - Trabalhar com XGBoost, Random Forest e validação.
 
-**Cursos:**
+**Cursos recomendados:**
 
-- [Curso ML para a Saúde – Coursera](https://guide.courseeye.com/curso-recomendado-fundamentos-de-machine-learning-para-a-saude/?utm_source=chatgpt.com)
-- [Data Science Academy – ML Biomédico](https://www.datascienceacademy.com.br/course/machine-learning-para-aplicacoes-biomedicas?utm_source=chatgpt.com)
+- [Fundamentals of Machine Learning for Healthcare – Stanford University (Coursera)](https://www.coursera.org/learn/fundamental-machine-learning-healthcare?utm_source=chatgpt.com)
+- [AI for Medicine Specialization – Stanford University (Coursera)](https://www.coursera.org/specializations/ai-for-medicine?utm_source=chatgpt.com)
 
 **Entrega esperada:** Notebook com modelo preditivo
 
@@ -75,9 +75,10 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 - Usar IA generativa (LLMs) para saúde.
 - Aplicar SHAP, LIME, FastAPI, Gradio.
 
-**Cursos:**
+**Cursos recomendados:**
 
-- [Generative AI for Healthcare – Coursera](https://www.coursera.org/learn/generative-ai-for-healthcare?utm_source=chatgpt.com)
+- [Generative AI for Healthcare – Google Cloud (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare?utm_source=chatgpt.com)
+- [Generative AI for Healthcare Students and Professionals – University of Glasgow (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare-students-and-professionals?utm_source=chatgpt.com)
 
 **Entrega esperada:** Protótipo de app com explicabilidade (XAI)
 
@@ -119,5 +120,5 @@ Cada pasta conterá Jupyter Notebooks, PDFs, comandos, datasets e scripts de pr�
 ## Próximos Passos
 
 1. Acompanhar trilha semanalmente com este documento no celular.
-2. Clonar repositório Git com exercícios (fornecido na próxima resposta).
+2. Clonar repositório Git com exercícios (estrutura fornecida abaixo).
 3. Completar os checkpoints a cada 4 semanas.
