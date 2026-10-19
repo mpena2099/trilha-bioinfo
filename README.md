@@ -1,4 +1,50 @@
-# Plano de Estudos: Bioinformática Clínica, Genética e IA (4 Meses)
+# Trilha Bioinfo: Bioinformática Clínica, Genética e IA
+
+Plano de estudos de 16 semanas e código de apoio. Projeto pessoal e educacional.
+
+> **Aviso:** nada aqui serve para diagnóstico ou decisão clínica. Os dados dos exemplos são simulados. Não commite dados genéticos reais de pacientes (o `.gitignore` já ignora `*.vcf`, `*.bam` e `*.gz`).
+
+## Estrutura
+
+```
+trilha-bioinfo/
+├── CRONOGRAMA.md        # tarefas semana a semana
+├── modulo1_genetica/    # leituras, mapas mentais, resumos
+├── modulo2_vcf/         # scripts de anotação, datasets, laudos
+├── modulo3_ml_saude/    # notebook de ML com SNPs simulados
+├── modulo4_ia_xai/      # API FastAPI de demonstração
+└── requirements.txt
+```
+
+## Como usar
+
+```bash
+pip install -r requirements.txt
+
+# Notebook do módulo 3
+jupyter notebook modulo3_ml_saude/notebooks/modelo_snp_predicao.ipynb
+
+# API de demonstração (docs em http://127.0.0.1:8000/docs)
+uvicorn modulo4_ia_xai.api.app_fastapi:app --reload
+
+# Anotação com ANNOVAR (requer instalação e registro no site do ANNOVAR)
+./modulo2_vcf/scripts/anotar_com_annovar.sh entrada.vcf humandb/ saida
+```
+
+## Status
+
+| Módulo | Situação |
+|---|---|
+| 1. Genética | em andamento |
+| 2. VCF e anotação | script de exemplo pronto |
+| 3. ML em saúde | notebook com dados simulados |
+| 4. IA e XAI | API de demonstração, sem modelo real |
+
+## Licença
+
+[MIT](LICENSE)
+
+---
 
 ## Visão Geral
 
@@ -17,8 +63,8 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 
 **Cursos recomendados:**
 
-- [Introduction to Genetics and Evolution – Duke University (Coursera)](https://www.coursera.org/learn/genetics-evolution?utm_source=chatgpt.com)
-- [Genetics: Analysis and Applications – MIT via edX](https://www.edx.org/course/introduction-to-biology-the-secret-of-life?utm_source=chatgpt.com)
+- [Introduction to Genetics and Evolution – Duke University (Coursera)](https://www.coursera.org/learn/genetics-evolution)
+- [Genetics: Analysis and Applications – MIT via edX](https://www.edx.org/search?q=genetics)
 
 **Entrega esperada:** Mapa mental + quiz de fixação
 
@@ -61,8 +107,8 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 
 **Cursos recomendados:**
 
-- [Fundamentals of Machine Learning for Healthcare – Stanford University (Coursera)](https://www.coursera.org/learn/fundamental-machine-learning-healthcare?utm_source=chatgpt.com)
-- [AI for Medicine Specialization – Stanford University (Coursera)](https://www.coursera.org/specializations/ai-for-medicine?utm_source=chatgpt.com)
+- [Fundamentals of Machine Learning for Healthcare – Stanford University (Coursera)](https://www.coursera.org/learn/fundamental-machine-learning-healthcare)
+- [AI for Medicine Specialization – Stanford University (Coursera)](https://www.coursera.org/specializations/ai-for-medicine)
 
 **Entrega esperada:** Notebook com modelo preditivo
 
@@ -77,8 +123,8 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 
 **Cursos recomendados:**
 
-- [Generative AI for Healthcare – Google Cloud (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare?utm_source=chatgpt.com)
-- [Generative AI for Healthcare Students and Professionals – University of Glasgow (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare-students-and-professionals?utm_source=chatgpt.com)
+- [Generative AI for Healthcare – Google Cloud (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare)
+- [Generative AI for Healthcare Students and Professionals – University of Glasgow (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare-students-and-professionals)
 
 **Entrega esperada:** Protótipo de app com explicabilidade (XAI)
 
@@ -99,26 +145,3 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 - FTP 1000 Genomes: [ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/)
 
 ---
-
-## Repositório Git sugerido
-
-**Estrutura ideal:**
-
-```
-trilha-bioinfo/
-├── modulo1_genetica/
-├── modulo2_vcf/
-├── modulo3_ml_saude/
-├── modulo4_ia_xai/
-└── README.md
-```
-
-Cada pasta conterá Jupyter Notebooks, PDFs, comandos, datasets e scripts de pré-processamento.
-
----
-
-## Próximos Passos
-
-1. Acompanhar trilha semanalmente com este documento no celular.
-2. Clonar repositório Git com exercícios (estrutura fornecida abaixo).
-3. Completar os checkpoints a cada 4 semanas.
