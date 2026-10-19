@@ -13,13 +13,14 @@ trilha-bioinfo/
 ├── modulo2_vcf/         # scripts de anotação, datasets, laudos
 ├── modulo3_ml_saude/    # notebook de ML com SNPs simulados
 ├── modulo4_ia_xai/      # API FastAPI de demonstração
-└── requirements.txt
+├── requirements.txt
+└── requirements-dev.txt
 ```
 
 ## Como usar
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt   # use requirements-dev.txt para rodar os testes (pytest)
 
 # Notebook do módulo 3
 jupyter notebook modulo3_ml_saude/notebooks/modelo_snp_predicao.ipynb
