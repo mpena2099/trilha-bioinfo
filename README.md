@@ -41,105 +41,24 @@ uvicorn modulo4_ia_xai.api.app_fastapi:app --reload
 | 3. ML em saúde | notebook com dados simulados |
 | 4. IA e XAI | API de demonstração, sem modelo real |
 
-## Visão Geral
+## Plano
 
-Duração: 16 semanas\
-Carga: 8–10h semanais\
-Objetivo: Capacitação prática e teórica para aplicações clínicas em bioinformática e IA em genômica.
+16 semanas, 8 a 10 horas por semana. As tarefas de cada semana, com links dos cursos, estão no [CRONOGRAMA.md](CRONOGRAMA.md).
 
----
+| Semanas | Módulo | Entrega |
+|---|---|---|
+| 1 a 4 | Fundamentos de genética e genética populacional | Mapa mental e quiz |
+| 5 a 8 | Bioinformática clínica: VCF, bancos de variantes, anotação, ACMG | Minirrelatório VCF e laudo básico |
+| 9 a 12 | Machine learning em saúde e genômica | Notebook com modelo preditivo |
+| 13 a 16 | IA generativa, XAI (SHAP, LIME) e deploy | Protótipo de app com explicabilidade |
 
-## Módulo 1 (Semanas 1–4): Fundamentos de Genética e Genética Populacional
+## Recursos extras
 
-**Objetivos:**
-
-- Compreender a base genética, SNPs e herança genética.
-- Estudar genética de populações.
-
-**Cursos recomendados:**
-
-- [Introduction to Genetics and Evolution – Duke University (Coursera)](https://www.coursera.org/learn/genetics-evolution)
-- [Genetics: Analysis and Applications – MIT via edX](https://www.edx.org/search?q=genetics)
-
-**Entrega esperada:** Mapa mental + quiz de fixação
-
----
-
-## Módulo 2 (Semanas 5–8): Bioinformática Clínica – VCF, dbSNP, Anotação
-
-**Objetivos:**
-
-- Analisar VCFs, buscar variantes em bancos públicos.
-- Utilizar ANNOVAR e VEP para anotação funcional.
-
-### Semana a Semana
-
-**Semana 5:** Estrutura do VCF e ferramentas de linha de comando
-
-- `bcftools`, `vcftools`, `IGV`
-- [Tutorial oficial VCFtools](https://vcftools.github.io/index.html)
-
-**Semana 6:** Bancos públicos de variantes
-
-- [dbSNP](https://www.ncbi.nlm.nih.gov/snp/), [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), [gnomAD](https://gnomad.broadinstitute.org)
-
-**Semana 7:** Anotação com [ANNOVAR](https://annovar.openbioinformatics.org) e [VEP](https://www.ensembl.org/info/docs/tools/vep/index.html)
-
-**Semana 8:** Interpretação clínica (guidelines ACMG)
-
-- Produzir laudo genético básico a partir de uma variante real.
-
-**Entrega esperada:** Minirrelatório VCF + laudo clínico básico
-
----
-
-## Módulo 3 (Semanas 9–12): Machine Learning em Saúde e Genômica
-
-**Objetivos:**
-
-- Construir modelos preditivos usando dados genéticos.
-- Trabalhar com XGBoost, Random Forest e validação.
-
-**Cursos recomendados:**
-
-- [Fundamentals of Machine Learning for Healthcare – Stanford University (Coursera)](https://www.coursera.org/learn/fundamental-machine-learning-healthcare)
-- [AI for Medicine Specialization – Stanford University (Coursera)](https://www.coursera.org/specializations/ai-for-medicine)
-
-**Entrega esperada:** Notebook com modelo preditivo
-
----
-
-## Módulo 4 (Semanas 13–16): IA Generativa, XAI e Deploy
-
-**Objetivos:**
-
-- Usar IA generativa (LLMs) para saúde.
-- Aplicar SHAP, LIME, FastAPI, Gradio.
-
-**Cursos recomendados:**
-
-- [Generative AI for Healthcare – Google Cloud (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare)
-- [Generative AI for Healthcare Students and Professionals – University of Glasgow (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare-students-and-professionals)
-
-**Entrega esperada:** Protótipo de app com explicabilidade (XAI)
-
----
-
-## Checkpoints
-
-- Semana 4: Mapa mental e quiz de genética
-- Semana 8: Relatório e anotação de variantes
-- Semana 12: Modelo de ML com dados genômicos
-- Semana 16: App com IA explicável
-
----
-
-## Recursos Extras
-
-- IGV: [https://software.broadinstitute.org/software/igv/](https://software.broadinstitute.org/software/igv/)
-- FTP 1000 Genomes: [https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/)
-
----
+- Bancos de variantes: [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), [gnomAD](https://gnomad.broadinstitute.org)
+- Anotação: [VEP](https://www.ensembl.org/info/docs/tools/vep/index.html)
+- Visualização: [IGV](https://software.broadinstitute.org/software/igv/)
+- Dados: [FTP 1000 Genomes](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/)
+- Cursos complementares: [AI for Medicine, Stanford (Coursera)](https://www.coursera.org/specializations/ai-for-medicine), [Generative AI for Healthcare Students and Professionals, University of Glasgow (Coursera)](https://www.coursera.org/learn/generative-ai-for-healthcare-students-and-professionals)
 
 ## Licença
 
