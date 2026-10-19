@@ -41,12 +41,6 @@ uvicorn modulo4_ia_xai.api.app_fastapi:app --reload
 | 3. ML em saúde | notebook com dados simulados |
 | 4. IA e XAI | API de demonstração, sem modelo real |
 
-## Licença
-
-[MIT](LICENSE)
-
----
-
 ## Visão Geral
 
 Duração: 16 semanas\
@@ -143,6 +137,10 @@ Objetivo: Capacitação prática e teórica para aplicações clínicas em bioin
 ## Recursos Extras
 
 - IGV: [https://software.broadinstitute.org/software/igv/](https://software.broadinstitute.org/software/igv/)
-- FTP 1000 Genomes: [ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/)
+- FTP 1000 Genomes: [https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/)
 
 ---
+
+## Licença
+
+[MIT](LICENSE)
